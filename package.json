@@ -1,0 +1,25 @@
+{
+  "name": "safestep-ai-child-guardian",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SafeStep – AI Child Guardian: a demo parental internet-safety dashboard",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.4",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.7",
+    "@vitejs/plugin-react": "^4.5.0",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.5"
+  }
+}
