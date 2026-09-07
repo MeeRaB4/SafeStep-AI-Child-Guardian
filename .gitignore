@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# Local development tools
+.tools/
+.qoder/
+
+# OS files
+.DS_Store
+
+# Temporary files
+.vercel-tmp/
+
+# Local deployment files
+deploy.bat
